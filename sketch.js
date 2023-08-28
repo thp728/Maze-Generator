@@ -11,7 +11,7 @@ function setup() {
     createCanvas(400, 400); // 400x400 px canvas
     cols = Math.floor(width/w);
     rows = Math.floor(height/w);
-    //frameRate(5);
+    //  frameRate(5);
 
     // Create all the cells
     for(let j=0; j<rows; j++) {
@@ -21,7 +21,7 @@ function setup() {
         }
     }
 
-    current  = grid[0];
+    current = grid[0];
 }
 
 function draw() {
